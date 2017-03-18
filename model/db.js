@@ -13,7 +13,7 @@ var mysql  = require('mysql');
 // 魔泊云
 var pool  = mysql.createPool({
     connectionLimit : 10,
-    host            : '192.168.1.181',
+    host            : '192.168.1.181:35069',
     user            : '06288107f4964',
     password        : '7fae65869d754',
     database        : 'd68a195b51f84'
